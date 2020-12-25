@@ -77,15 +77,15 @@ WSGI_APPLICATION = 'my.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tec',
         'USER':'postgres',
         'PASSWORD': '022001',
-        'HOST':'5432'
+        #'HOST':'5432'
     }
-}'''
+}
 
 
 # Password validation
