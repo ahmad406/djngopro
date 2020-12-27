@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'tec.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tec',
-        'USER':'ahmadsayyed66',
-        'PASSWORD': 'akjjyglc',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': str(BASE_DIR/'db.sqlite3',
+        #'USER':'ahmadsayyed66',
+        #'PASSWORD': 'akjjyglc',
         #'HOST':'5432'
     }
 }
